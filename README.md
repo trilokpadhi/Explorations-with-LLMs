@@ -47,9 +47,7 @@ This repository utilizes several techniques for fine-tuning and prompt-tuning of
 
 
 ## Resources
-_PEFT_
+-[litgpt by Lighting AI ](https://github.com/Lightning-AI/litgpt) : LitGPT is a command-line tool designed to easily finetune, pretrain, evaluate, and deploy 20+ LLMs on your own data. It features highly-optimized training recipes for the world's most powerful open-source large-language-models (LLMs). It is built on top of the Hugging Face Transformers library and PyTorch Lightning.
 
-
-_Other Resources_
--https://github.com/Lightning-AI/litgpt 
+-[AdapterHub](https://adapterhub.ml/) : AdapterHub is a library for using and sharing adapters for fine-tuning LLMs. It provides a simple API for adding adapters to LLMs and fine-tuning them on downstream tasks. It also offers a repository of pre-trained adapters for various tasks and languages.
 
