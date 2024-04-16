@@ -33,7 +33,11 @@ This repository utilizes several techniques for fine-tuning and prompt-tuning of
         - [Multimodal neurons in the Transformer](https://colah.github.io/posts/2022-02-07-Multimodal-Neurons/)
             - Code to reproduce the multimodal neurons in the Transformer: [Code](https://github.com/openai/CLIP-featurevis)
         - [Interpreting Othello GPT](https://www.alignmentforum.org/posts/nmxzr2zsjNtjaHh7x/actually-othello-gpt-has-a-linear-emergent-world)
+            - Code to reproduce the Othello GPT: [Code](https://colab.research.google.com/github/likenneth/othello_world/blob/master/Othello_GPT_Circuits.ipynb)
         - [Interpreting the GPT-3 Model](https://www.lesswrong.com/posts/7Z9vZv7Zv7Zv7Zv7Z/interpreting-gpt-3)
+        - [200 COP in MI: Interpreting Algorithmic Problems](https://www.alignmentforum.org/s/yivyHaCAmMJ3CqSyj/p/ejtFsvyhRkMofKAFy)
+        - [How a Transformer Learns to take max](https://colab.research.google.com/drive/1N4iPEyBVuctveCA0Zre92SpfgH6nmHXY?usp=sharing#scrollTo=1R6E8N6alBId)
+
     _People_:
         - [Neel Nanda](https://www.neelnanda.io/)
         - [Chris Olah](https://colah.github.io/)
@@ -68,3 +72,11 @@ _Libraries_:
 
 _Blogs_:
     - [LESSWRONG](https://www.lesswrong.com/) - A community blog focused on rationality, AI alignment, and other topics.
+    - [Chris Olah's Blog](https://colah.github.io/) - A blog by Chris Olah, a researcher at OpenAI, that covers a wide range of topics related to AI and machine learning.
+    - [Neel Nanda's Blog](https://www.neelnanda.io/) - A blog by Neel Nanda, a researcher at DeepMind, that covers topics related to AI alignment, interpretability, and other areas.
+    - [Transformer Circuits Thread](https://transformer-circuits.pub/)
+
+_Podcasts_:
+    - [The Alignment Newsletter Podcast](https://anchor.fm/alignment-newsletter) - A podcast that discusses AI alignment, rationality, and other related topics.
+    - [The Bayesian Conspiracy](https://thebayesianconspiracy.libsyn.com/) - A podcast that discusses Bayesian reasoning, rationality, and other topics.
+    - [Mechanistic Interpretability - NEEL NANDA (DeepMind)](https://www.youtube.com/watch?v=_Ygf0GnlwmY)
