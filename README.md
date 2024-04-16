@@ -64,19 +64,19 @@ This repository utilizes several techniques for fine-tuning and prompt-tuning of
 
 ## Resources
 
-_Repositories_:
+- _Repositories_:
     -[litgpt by Lighting AI ](https://github.com/Lightning-AI/litgpt) : LitGPT is a command-line tool designed to easily finetune, pretrain, evaluate, and deploy 20+ LLMs on your own data. It features highly-optimized training recipes for the world's most powerful open-source large-language-models (LLMs). It is built on top of the Hugging Face Transformers library and PyTorch Lightning.
 
-_Libraries_:
+- _Libraries_:
     -[AdapterHub](https://adapterhub.ml/) : AdapterHub is a library for using and sharing adapters for fine-tuning LLMs. It provides a simple API for adding adapters to LLMs and fine-tuning them on downstream tasks. It also offers a repository of pre-trained adapters for various tasks and languages.
 
-_Blogs_:
+- _Blogs_:
     - [LESSWRONG](https://www.lesswrong.com/) - A community blog focused on rationality, AI alignment, and other topics.
     - [Chris Olah's Blog](https://colah.github.io/) - A blog by Chris Olah, a researcher at OpenAI, that covers a wide range of topics related to AI and machine learning.
     - [Neel Nanda's Blog](https://www.neelnanda.io/) - A blog by Neel Nanda, a researcher at DeepMind, that covers topics related to AI alignment, interpretability, and other areas.
     - [Transformer Circuits Thread](https://transformer-circuits.pub/)
 
-_Podcasts_:
+- _Podcasts_:
     - [The Alignment Newsletter Podcast](https://anchor.fm/alignment-newsletter) - A podcast that discusses AI alignment, rationality, and other related topics.
     - [The Bayesian Conspiracy](https://thebayesianconspiracy.libsyn.com/) - A podcast that discusses Bayesian reasoning, rationality, and other topics.
     - [Mechanistic Interpretability - NEEL NANDA (DeepMind)](https://www.youtube.com/watch?v=_Ygf0GnlwmY)
