@@ -13,10 +13,20 @@ This repository contains my experiments with the LLMs related to fine-tuning, pr
 This repository utilizes several techniques for fine-tuning and prompt-tuning of Language Models (LLMs). Here are some of the key techniques used:
 
 1. **PEFT (Parameter Efficient Fine Tuning)**: This technique involves creating effective prompts that guide the model to generate the desired output.
-    - **Prompt-Tuning**: This is a method of fine-tuning where the model is trained to respond to specific prompts with specific responses.
-    - **Adapter-Tuning**: This technique involves adding and training small, task-specific modules in the model without modifying the pre-trained parameters.
+    - _Prompt-Tuning_: 
+        - This is a method of fine-tuning where the model is trained to respond to specific prompts with specific responses.
+        - [PEFT: Parameter-Efficient Fine-Tuning for Transformers](https://arxiv.org/abs/2202.11688) - The original paper on PEFT.
 
-2. **Mechanistic-Interpretation**: This technique involves understanding the inner workings of the model to gain insights into how it generates outputs.
+    - _Adapter-Tuning_: 
+        - This technique involves adding and training small, task-specific modules in the model without modifying the pre-trained parameters.
+        - [AdapterHub](https://adapterhub.ml/) - A library for using and sharing adapters for fine-tuning LLMs.
+        - [Adapter-Tuning: Overcoming Overfitting in Large Language Models](https://arxiv.org/abs/2106.04554) - The original paper on Adapter-Tuning.
+
+2. **Mechanistic-Interpretation**: This technique involves understanding the inner workings of the model to gain insights into how it generates outputs. 
+    - [Concrete Steps to Get Started in Transformer Mechanistic Interpretability](https://www.neelnanda.io/mechanistic-interpretability/getting-started)
+    - [Interpreting Transformers with Mechanistic Reasoning](https://arxiv.org/abs/2202.11688) - The original paper on Mechanical Interpretation.
+    - [A practical example of Mechanical Interpretation](https://www.lesswrong.com/posts/CJsxd8ofLjGFxkmAP/explaining-the-transformer-circuits-framework-by-example#2__Practical_Example__Taking_the_max_with_an_attention_only_transformer)
+
 
 
 ## Datasets
@@ -29,7 +39,8 @@ This repository utilizes several techniques for fine-tuning and prompt-tuning of
 ## Libraries
 1. Huggingface Transformers
 2. PyTorch Lightning
-
+3. AdapterHub
+4. [TransformerLens](https://github.com/neelnanda-io/TransformerLens)
 ## Experiments
 
 ## Results
@@ -37,18 +48,7 @@ This repository utilizes several techniques for fine-tuning and prompt-tuning of
 
 ## Resources
 _PEFT_
-- [PEFT: Parameter-Efficient Fine-Tuning for Transformers](https://arxiv.org/abs/2202.11688) - The original paper on PEFT.
 
-_Prompt-Tuning_
-- [Prompt-Tuning: A Simple Method for Fine-Tuning Language Models](https://arxiv.org/abs/2106.06704) - The original paper on Prompt-Tuning.
-
-_Adapter-Tuning_
-- [AdapterHub](https://adapterhub.ml/) - A library for using and sharing adapters for fine-tuning LLMs.
-- [Adapter-Tuning: Overcoming Overfitting in Large Language Models](https://arxiv.org/abs/2106.04554) - The original paper on Adapter-Tuning.
-
-_Mechanical-Interpretation_
-- [Interpreting Transformers with Mechanistic Reasoning](https://arxiv.org/abs/2202.11688) - The original paper on Mechanical Interpretation.
-- [A practical example of Mechanical Interpretation](https://www.lesswrong.com/posts/CJsxd8ofLjGFxkmAP/explaining-the-transformer-circuits-framework-by-example#2__Practical_Example__Taking_the_max_with_an_attention_only_transformer)
 
 _Other Resources_
 -https://github.com/Lightning-AI/litgpt 
