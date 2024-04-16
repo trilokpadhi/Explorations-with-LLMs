@@ -1,8 +1,5 @@
-This repository contains my experiments with the LLMs related to fine-tuning, prompt-tuning, PEFT and other techniques. The experiments are done on various datasets and the results are compared with the baselines. 
 
-
-
-## Structure
+## Project Structure
 - `PEFT` - Contains the experiments related to the PEFT technique.
     - `Prompt-Tuning` - Contains the experiments related to the Prompt-Tuning technique.
     - `Adapter-Tuning` - Contains the experiments related to the Adapter-Tuning technique.
