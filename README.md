@@ -23,11 +23,21 @@ This repository utilizes several techniques for fine-tuning and prompt-tuning of
         - [Adapter-Tuning: Overcoming Overfitting in Large Language Models](https://arxiv.org/abs/2106.04554) - The original paper on Adapter-Tuning.
 
 2. **Mechanistic-Interpretability**: This technique involves understanding the inner workings of the model to gain insights into how it generates outputs. 
-    - [Concrete Steps to Get Started in Transformer Mechanistic Interpretability](https://www.neelnanda.io/mechanistic-interpretability/getting-started)
-    - [Interpreting Transformers with Mechanistic Reasoning](https://arxiv.org/abs/2202.11688) - The original paper on Mechanical Interpretation.
-    - [A practical example of Mechanical Interpretation](https://www.lesswrong.com/posts/CJsxd8ofLjGFxkmAP/explaining-the-transformer-circuits-framework-by-example#2__Practical_Example__Taking_the_max_with_an_attention_only_transformer)
-    - [A Comprehensive Mechanistic Interpretability Explainer & Glossary](https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J)
-    - [Exploratory Analysis Demo](https://github.com/neelnanda-io/TransformerLens/blob/main/demos/Exploratory_Analysis_Demo.ipynb)
+
+    _Links_:
+        - [Concrete Steps to Get Started in Transformer Mechanistic Interpretability](https://www.neelnanda.io/mechanistic-interpretability/getting-started)
+        - [Interpreting Transformers with Mechanistic Reasoning](https://arxiv.org/abs/2202.11688) - The original paper on Mechanical Interpretation.
+        - [A practical example of Mechanical Interpretation](https://www.lesswrong.com/posts/CJsxd8ofLjGFxkmAP/explaining-the-transformer-circuits-framework-by-example#2__Practical_Example__Taking_the_max_with_an_attention_only_transformer)
+        - [A Comprehensive Mechanistic Interpretability Explainer & Glossary](https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J)
+        - [Exploratory Analysis Demo](https://github.com/neelnanda-io/TransformerLens/blob/main/demos/Exploratory_Analysis_Demo.ipynb)
+        - [Multimodal neurons in the Transformer](https://colah.github.io/posts/2022-02-07-Multimodal-Neurons/)
+            - Code to reproduce the multimodal neurons in the Transformer: [Code](https://github.com/openai/CLIP-featurevis)
+        - [Interpreting Othello GPT](https://www.alignmentforum.org/posts/nmxzr2zsjNtjaHh7x/actually-othello-gpt-has-a-linear-emergent-world)
+        - [Interpreting the GPT-3 Model](https://www.lesswrong.com/posts/7Z9vZv7Zv7Zv7Zv7Z/interpreting-gpt-3)
+    _People_:
+        - [Neel Nanda](https://www.neelnanda.io/)
+        - [Chris Olah](https://colah.github.io/)
+        - [Eliezer Yudkowsky - the original guy on ](https://www.lesswrong.com/users/eliezer_yudkowsky)[Twitter](https://twitter.com/esyudkowsky?lang=en)
 
 
 ## Datasets
@@ -42,13 +52,19 @@ This repository utilizes several techniques for fine-tuning and prompt-tuning of
 2. PyTorch Lightning
 3. AdapterHub
 4. [TransformerLens](https://github.com/neelnanda-io/TransformerLens)
+
 ## Experiments
 
 ## Results
-
+- TBD
 
 ## Resources
--[litgpt by Lighting AI ](https://github.com/Lightning-AI/litgpt) : LitGPT is a command-line tool designed to easily finetune, pretrain, evaluate, and deploy 20+ LLMs on your own data. It features highly-optimized training recipes for the world's most powerful open-source large-language-models (LLMs). It is built on top of the Hugging Face Transformers library and PyTorch Lightning.
 
--[AdapterHub](https://adapterhub.ml/) : AdapterHub is a library for using and sharing adapters for fine-tuning LLMs. It provides a simple API for adding adapters to LLMs and fine-tuning them on downstream tasks. It also offers a repository of pre-trained adapters for various tasks and languages.
+_Repositories_:
+    -[litgpt by Lighting AI ](https://github.com/Lightning-AI/litgpt) : LitGPT is a command-line tool designed to easily finetune, pretrain, evaluate, and deploy 20+ LLMs on your own data. It features highly-optimized training recipes for the world's most powerful open-source large-language-models (LLMs). It is built on top of the Hugging Face Transformers library and PyTorch Lightning.
 
+_Libraries_:
+    -[AdapterHub](https://adapterhub.ml/) : AdapterHub is a library for using and sharing adapters for fine-tuning LLMs. It provides a simple API for adding adapters to LLMs and fine-tuning them on downstream tasks. It also offers a repository of pre-trained adapters for various tasks and languages.
+
+_Blogs_:
+    - [LESSWRONG](https://www.lesswrong.com/) - A community blog focused on rationality, AI alignment, and other topics.
