@@ -4,6 +4,7 @@
     - `Prompt-Tuning` - Contains the experiments related to the Prompt-Tuning technique.
     - `Adapter-Tuning` - Contains the experiments related to the Adapter-Tuning technique.
 - `transformer-circuits` - Contains the experiments related to the Mechanical Interpretation technique.
+- `embeddings` - How to extract embeddings from the LLMs
 
 ## Techniques Used
 
